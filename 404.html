@@ -3,9 +3,24 @@
 <meta charset="UTF-8">
  
 <script>
-   redirects = {
-        '/': 'https://dillon-hunt.com',
-        '/31': 'https://31-dillon-hunt.netlify.app/'
+    redirects = {
+        <!-- Portfolio    -->
+        '/portfolio'        : 'https://dillon-hunt.com',
+        '/'                 : 'https://dillon-hunt.com',
+
+        <!-- Projects     -->
+        '/social-media-app' : 'https://social-media-app-fcc1f.web.app/',
+        '/study-minutes'    : 'https://study-minutes.web.app/',
+        '/31'               : 'https://31-dillon-hunt.netlify.app/',
+
+        <!-- Photography  -->
+        '/photography'      : 'https://unsplash.com/@dillon_hunt',
+        '/unsplash'         : 'https://unsplash.com/@dillon_hunt',
+
+        <!-- Social Media -->
+        '/instagram'        : 'https://www.instagram.com/dillon__hunt/',
+        '/twitter'          : 'https://twitter.com/Dillon__Hunt',
+        '/x'                : 'https://twitter.com/Dillon__Hunt',
     }
     window.location.href = redirects[location.pathname] || 'https://dillon-hunt.com'
 </script>
